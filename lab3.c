@@ -19,25 +19,25 @@ void main(void)
 }
 int findOdd_or_EvenNumber(void)
 {
-     int i, j, size;
+     int index1, index2, size;
      printf("Enter the size of the arrays: ");
      scanf("%d", &size);
      int myArray[size];
      printf("Enter the array elements:\n");
-     for(i=0;i<size;i++)
-         scanf("%d",&myArray[i]);
+     for(index1=0;index1<size;index1++)
+         scanf("%d",&myArray[index1]);
      int FoundAnswer;
-           for(i=0;i<size;i++){
+           for(index2=0;index2<size;index2++){
                     FoundAnswer=1;
-               for(j=0;j<size;j++){
-                   if(myArray[i]*-1==myArray[j]){
+               for(index2=0;index2<size;index2++){
+                   if(myArray[index1]*-1==myArray[index2]){
                        FoundAnswer=0;
                        break;
                    }
                        
                }
                if (FoundAnswer==1){
-                   printf("Our element is:%d\n",myArray[i]);
+                   printf("Our element is:%d\n",myArray[index1]);
    
      
 }
