@@ -33,7 +33,7 @@ int findOddOrEvenNumber(void)
             break;
             }
             }
-            if (FoundAnswer==1){
+          if (FoundAnswer==1){
               printf("Our element is:%d\n",myArray[index1]);
             }
             }
