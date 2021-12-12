@@ -9,7 +9,7 @@
 
 int findOddOrEvenNumber(void);
 
-void main(void)
+int main(void)
 {
     findOddOrEvenNumber();
     findOddOrEvenNumber();
