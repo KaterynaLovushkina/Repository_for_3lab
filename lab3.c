@@ -1,10 +1,11 @@
 //
 //  main.c
-//  lab22
+//  lab3.c
 //
-//  Created by Катерина ... on 16.09.2021.
+//  Created by Катерина ... on 12.12.2021.
 //
 #include <stdio.h>
+#include <stdbool.h>
 
 int findOddOrEvenNumber(void);
 
@@ -24,16 +25,16 @@ int findOddOrEvenNumber(void)
      for(index1=0;index1<size;index1++){
       scanf("%d",&myArray[index1]);
     }
-     int FoundAnswer;
+     bool FoundAnswer=true;
      for(index2=0;index2<size;index2++){
-        FoundAnswer=1;
+        FoundAnswer=true;
         for(index2=0;index2<size;index2++){
           if(myArray[index1]*-1==myArray[index2]){
-            FoundAnswer=0;
+            FoundAnswer=false;
             break;
             }
             }
-            if (FoundAnswer==1){
+            if (FoundAnswer==true){
               printf("Our element is:%d\n",myArray[index1]);
             }
             }
