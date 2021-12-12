@@ -34,11 +34,7 @@ int findOddOrEvenNumber(void)
             break;
             }
             }
-<<<<<<< HEAD
             if (FoundAnswer==true){
-=======
-          if (FoundAnswer==1){
->>>>>>> 353ffd90b25f49dfb5079a1c09f975199b176f0e
               printf("Our element is:%d\n",myArray[index1]);
             }
             }
